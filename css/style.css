@@ -8,9 +8,13 @@
     background-color: black
 }
 
-.inline-block {
-    display: inline-block;
-    vertical-align: top;
+p {
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #edf0f1;
+    position: center;
+    text-decoration: none;
 }
 
 li, a, button {
@@ -115,6 +119,8 @@ header {
 
 .footer {
     text-align: center;
+    padding: 25px;
+
 }
 
 .contactme {
@@ -125,4 +131,103 @@ header {
 
 .profile {
     width: 50%;
+}
+
+h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #edf0f1;
+    position: center;
+    text-decoration: none;
+}
+
+h3 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #edf0f1;
+    position: center;
+    text-decoration: none;
+}
+
+
+/*<!--  My UX Skills section coded using CSS flex -->*/
+.flexContainer {
+    display: flex;
+    width: 75%;
+    margin: 20px auto;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+​
+.mySkills {
+    text-align: center;
+    padding: 20px;
+}
+​
+.card {
+    display: inline-block;
+    text-align: center;
+}
+​
+.card img {
+    width: 60px;
+}
+​
+​
+/*<!--  My Work section coded using CSS grid -->*/
+.myWork h1 {
+    text-align: center;
+}
+.workCard-Container {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    grid-template-columns: 300px 300px;
+    padding: 40px;
+}
+.workCard-image img {
+    width: 300px;
+}
+.workCard-Content {
+    text-align: left;
+    left: 50px;
+    padding-left: 30px;
+}
+
+footer {
+    background-color: #000000;
+    height: auto;
+    width: 100vw;
+    font-family: "Raleway", sans-serif;
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 20px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a:hover{
+    color:#e000a3;
 }
